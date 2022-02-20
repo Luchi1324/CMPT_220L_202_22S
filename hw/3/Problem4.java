@@ -1,6 +1,7 @@
 public class Problem4 {
     public static void main(String[] args){
         // Generates random coordinates within radius
+        // JA: This will give points outside the circle
         double x = 5 + Math.random() * -10;
         double y = 5 + Math.random() * -10;
 
