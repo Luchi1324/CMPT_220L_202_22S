@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class Problem4 {
+    // JA: It's a clock. The maximum hours should be 24
     public static String format(long Seconds) {
         // Converts from seconds to hours, minutes and seconds respectively
         int hours = (int) (Seconds / 3600);
