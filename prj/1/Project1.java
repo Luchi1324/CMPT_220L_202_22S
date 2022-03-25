@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// JA: It's always good to have a comment in the header explaining what the program does.
 public class Project1 {
     public static void main(String[] args) {
         // Gets Input
@@ -9,6 +10,7 @@ public class Project1 {
         input.close();
 
         // Computes results
+        // JA: How?
         int s2 = (2*t) - s1;
         System.out.println("S2 is "+s2);
     }
