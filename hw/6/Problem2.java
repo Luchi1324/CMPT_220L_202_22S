@@ -34,7 +34,7 @@ public class Problem2 {
     }
 
     public static double area(Point[] vertices) {
-        double sum = 0.0
+        double sum = 0.0 //JA: Systax error
         for (int i = 0; i < 5; i++) {
             sum += cross_product(
                 vertices[i],

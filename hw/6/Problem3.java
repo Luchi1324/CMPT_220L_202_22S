@@ -19,5 +19,6 @@ public class Problem3 {
         String str = input.nextLine();
         input.close();
         count(str);
+        // JA: Output?
     }
 }
