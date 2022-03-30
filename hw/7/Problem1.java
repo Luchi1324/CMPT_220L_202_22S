@@ -4,9 +4,9 @@ public class Problem1 {
         // Gets input
         Scanner input = new Scanner(System.in);
         System.out.print("Enter a, b, and c: ");
-        int A = input.nextInt();
-        int B = input.nextInt();
-        int C = input.nextInt();
+        double A = input.nextDouble();
+        double B = input.nextDouble();
+        double C = input.nextDouble();
         input.close();
 
         // Creates new QuadraticEquation object, then displays roots based on discriminant
@@ -24,25 +24,25 @@ public class Problem1 {
 
 class QuadraticEquation {
     // Declares private data fields
-    private int a;
-    private int b;
-    private int c;
+    private double a;
+    private double b;
+    private double c;
 
     // Constructor
-    QuadraticEquation(int a, int b, int c) {
+    QuadraticEquation(double a, double b, double c) {
         this.a = a;
         this.b = b;
         this.c = c;
     }
 
     // Getters
-    int getA() {
+    double getA() {
         return a;
     }
-    int getB() {
+    double getB() {
         return b;
     }
-    int getC() {
+    double getC() {
         return c;
     }
 
