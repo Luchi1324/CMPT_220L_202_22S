@@ -48,6 +48,7 @@ public class Project3 {
                 }
 
                 // Main ray reflection algorithm
+                // JA: Thos results in an infinite loop.
                 while (true) {
                     charFound:
                     if (count % 2 == 0) {
