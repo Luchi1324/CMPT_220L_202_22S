@@ -1,4 +1,5 @@
 import java.util.*;
+// JA: This does not work
 public class Problem1 {
     public static void main(String[] args) {
         // Gets user input
