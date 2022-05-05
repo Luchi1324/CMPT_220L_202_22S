@@ -1,5 +1,7 @@
 import java.io.*;
 import java.util.*;
+
+// JA: I could not find the UML diagram.
 public class Project4 {
     public static void main(String[] args) throws IOException {
         // Gets input

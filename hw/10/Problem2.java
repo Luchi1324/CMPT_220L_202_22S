@@ -47,6 +47,7 @@ abstract class Animal implements Comparable<Animal>, Cloneable {
 class Chicken extends Animal {
     // Methods
     @Override
+    // JA: This should be done in the Animal class
     public int compareTo(Animal o) {
         return (int) (this.getWeight() - o.getWeight());
     }
