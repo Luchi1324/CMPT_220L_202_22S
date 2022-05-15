@@ -73,18 +73,18 @@ public class Complex extends Number implements Cloneable, Comparable<Complex>{
 	}
     @Override
     public int intValue() {
-        return 0;
+        return (int)doubleValue();
     }
     @Override
     public long longValue() {
-        return 0;
+        return (long)doubleValue();
     }
     @Override
     public float floatValue() {
-        return 0;
+        return (float)doubleValue();
     }
     @Override
     public double doubleValue() {
-        return 0;
+        return abs();
     }
 }
